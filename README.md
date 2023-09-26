@@ -42,21 +42,51 @@ Additionally, the application presents the user with the 5-day forecast with the
   npm install
   ```
 
-5. Open microservice.py:
-   * Enter your OpenWeatherMap API key at the top of the file 
+5. Open microservice.py and insert your API key:
+   * At the top of the file you'll see:
+     
+     ```
+     # ------------------ PERSONAL API KEY ---------------------- # 
+     apikey = 'REPLACE THIS WITH YOUR OpenWeatherMap API KEY'
+     # ---------------------------------------------------------- #
+     ```
+   
+   * Replace 'REPLACE THIS WITH YOUR OpenWeatherMap API KEY' with your actual API key, make sure to keep it between the single quotes. For example, if your API key is 'abcdef1234567', it should look like this:
 
-5. Run the microservice:
+     ```
+     apikey = 'abcdef1234567'
+     ```
+     
+6. Open forecast.js located in the public folder and insert your API key:
+   * At the top of the file you'll see:
+
+     ```
+     // ------------- PERSONAL API KEY -----------------------------
+
+     const apiKey = 'REPLACE THIS WITH YOUR OpenWeatherMap API KEY';
+
+     // ------------------------------------------------------------
+     ```
+
+    * Replace 'REPLACE THIS WITH YOUR OpenWeatherMap API KEY' with your actual API key, make sure to keep it between the single quotes. For example, if your API key is 'abcdef1234567', it should look like this:
+  
+      ```
+      const apiKey = 'REPLACE THIS WITH YOUR OpenWeatherMap API KEY';
+      ```
+
+7. Run the microservice:
 
    ```
    python microservice.py
    ```
 
-6. Start the application in a new terminal:
+8. Start the application in a new terminal:
 
   ```
   npm start
   ```
- 
+
+9. Open your preferred browser and navigate to [](http://localhost:3000/) to view the application!
 
 ## 📚 Documentation & References
 
