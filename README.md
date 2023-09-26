@@ -90,7 +90,8 @@ Additionally, the application presents the user with the 5-day forecast with the
    npm start
    ```
 
-9. Open your preferred browser and navigate to [](http://localhost:3000/) to view the application!
+9. Launch your preferred browser and visit http://localhost:3000/ to interact with the Weather App!
+   
 
 ## 📚 Documentation & References
 
