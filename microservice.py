@@ -6,8 +6,11 @@ import requests
 import json
 import datetime
 
+# ------------------ PERSONAL API KEY ---------------------- # 
 
 apikey = 'REPLACE THIS WITH YOUR OpenWeatherMap API KEY'
+
+# ---------------------------------------------------------- #
 
 context = zmq.Context()
 socket = context.socket(zmq.REP)
