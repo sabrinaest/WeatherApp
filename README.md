@@ -42,7 +42,8 @@ Additionally, the application presents the user with the 5-day forecast with the
   npm install
   ```
 
-5. Enter your API key 
+5. Open microservice.py:
+   * Enter your OpenWeatherMap API key at the top of the file 
 
 5. Run the microservice:
 
