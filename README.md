@@ -20,9 +20,10 @@ Additionally, the application presents the user with the 5-day forecast with the
 ## 🛠️ Setup and Installation
 
 1. Setup Essentials:
-   * Python 3.10 (needed for the microservice)
-   * TailwindCSS Installation
-   * OpenWeatherMap API Key
+   * Python 3.10: Needed for the Python-based microservice
+   * TailwindCSS: Follow the [TailwindCSS Installation Guide](https://tailwindcss.com/docs/installation)
+   * ZeroMQ: Install the necessary [ZeroMQ libraries](https://zeromq.org/languages/python)  
+   * OpenWeatherMap API Key: Obtain a key by signing up at [OpenWeatherMap](https://openweathermap.org) (it's free!) 
 
 2. Clone the Repository:
 
@@ -94,4 +95,15 @@ Additionally, the application presents the user with the 5-day forecast with the
    
 
 ## 📚 Documentation & References
+
+**Official Documentation**
+
+* [OpenWeatherMap API Documentation](https://openweathermap.org/api/one-call-3): A comprehensive guide into how the OpenWeatherMap API works and the data that it gathers.
+
+* [ZeroMQ with Python](https://zeromq.org/languages/python/): Understand the integration of ZeroMQ with Python and how it can be used for real-time data exchange.
+
+* [TailwindCSS Documentation](https://tailwindcss.com/docs/installation): An in-depth guide to the CSS framework used to style this application.
+
+* [Express.js Documentation](https://expressjs.com/en/guide/routing.html): Learn more about the backend framework used for routing and server setup.
+
 
