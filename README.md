@@ -19,5 +19,43 @@ Additionally, the application presents the user with the 5-day forecast with the
 
 ## 🛠️ Setup and Installation
 
+1. Setup Essentials:
+   * Python 3.10 (needed for the microservice)
+   * TailwindCSS Installation
+   * OpenWeatherMap API Key
+
+2. Clone the Repository:
+
+   ```
+   git clone https://github.com/sabrinaest/WeatherApp.git
+   ```
+
+3. Navigate to the Directory:
+
+   ```
+   cd WeatherApp
+   ```
+
+4. Install the Dependencies:
+
+  ```
+  npm install
+  ```
+
+5. Enter your API key 
+
+5. Run the microservice:
+
+   ```
+   python microservice.py
+   ```
+
+6. Start the application in a new terminal:
+
+  ```
+  npm start
+  ```
+ 
+
 ## 📚 Documentation & References
 
