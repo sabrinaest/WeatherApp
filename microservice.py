@@ -6,6 +6,9 @@ import requests
 import json
 import datetime
 
+
+apikey = 'REPLACE THIS WITH YOUR OpenWeatherMap API KEY'
+
 context = zmq.Context()
 socket = context.socket(zmq.REP)
 socket.bind("tcp://*:5555")
@@ -15,7 +18,6 @@ while True:
 
     message = socket.recv()
     message = message.decode()
-    apikey = 'api_id'
 
     url = f"https://api.openweathermap.org/data/2.5/weather?q={message}&appid={apikey}"
 
