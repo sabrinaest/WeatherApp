@@ -56,6 +56,8 @@ Additionally, the application presents the user with the 5-day forecast with the
      ```
      apikey = 'abcdef1234567'
      ```
+
+   * Be sure to save your changes
      
 6. Open forecast.js located in the public folder and insert your API key:
    * At the top of the file you'll see:
@@ -71,8 +73,10 @@ Additionally, the application presents the user with the 5-day forecast with the
     * Replace 'REPLACE THIS WITH YOUR OpenWeatherMap API KEY' with your actual API key, make sure to keep it between the single quotes. For example, if your API key is 'abcdef1234567', it should look like this:
   
       ```
-      const apiKey = 'REPLACE THIS WITH YOUR OpenWeatherMap API KEY';
+      const apiKey = 'abcdef1234567';
       ```
+
+    * Be sure to save your changes
 
 7. Run the microservice:
 
