@@ -1,6 +1,6 @@
 // -------------------------------------- VARIABLES/CONSTANTS ----------------------------------------
 
-const apiKey = 'api_id';
+const apiKey = 'REPLACE THIS WITH YOUR OpenWeatherMap API KEY';
 let days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'] // array to help convert the day of week from .getDay() to a day name 
 
 const newCitySearchInput = document.getElementById('new-city-search');
