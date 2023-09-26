@@ -38,9 +38,9 @@ Additionally, the application presents the user with the 5-day forecast with the
 
 4. Install the Dependencies:
 
-  ```
-  npm install
-  ```
+   ```
+   npm install
+   ```
 
 5. Open microservice.py and insert your API key:
    * At the top of the file you'll see:
@@ -82,9 +82,9 @@ Additionally, the application presents the user with the 5-day forecast with the
 
 8. Start the application in a new terminal:
 
-  ```
-  npm start
-  ```
+   ```
+   npm start
+   ```
 
 9. Open your preferred browser and navigate to [](http://localhost:3000/) to view the application!
 
