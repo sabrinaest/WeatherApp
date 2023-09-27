@@ -51,7 +51,7 @@ Additionally, the application presents the user with the 5-day forecast with the
 5. Open microservice.py and insert your API key:
    * At the top of the file you'll see:
      
-     ```
+     ```python
      # ------------------ PERSONAL API KEY ---------------------- # 
      apikey = 'REPLACE THIS WITH YOUR OpenWeatherMap API KEY'
      # ---------------------------------------------------------- #
@@ -59,8 +59,10 @@ Additionally, the application presents the user with the 5-day forecast with the
    
    * Replace 'REPLACE THIS WITH YOUR OpenWeatherMap API KEY' with your actual API key, make sure to keep it between the single quotes. For example, if your API key is 'abcdef1234567', it should look like this:
 
-     ```
+     ```python
+     # ------------------ PERSONAL API KEY ---------------------- # 
      apikey = 'abcdef1234567'
+     # ---------------------------------------------------------- #
      ```
 
    * Be sure to save your changes
@@ -68,7 +70,7 @@ Additionally, the application presents the user with the 5-day forecast with the
 6. Open forecast.js located in the public folder and insert your API key:
    * At the top of the file you'll see:
 
-     ```
+     ```javascript
      // ------------- PERSONAL API KEY -----------------------------
 
      const apiKey = 'REPLACE THIS WITH YOUR OpenWeatherMap API KEY';
@@ -78,8 +80,12 @@ Additionally, the application presents the user with the 5-day forecast with the
 
     * Replace 'REPLACE THIS WITH YOUR OpenWeatherMap API KEY' with your actual API key, make sure to keep it between the single quotes. For example, if your API key is 'abcdef1234567', it should look like this:
   
-      ```
+      ```javascript
+      // ------------- PERSONAL API KEY -----------------------------
+
       const apiKey = 'abcdef1234567';
+
+      // ------------------------------------------------------------
       ```
 
     * Be sure to save your changes
