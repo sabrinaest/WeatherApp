@@ -117,6 +117,6 @@ Additionally, the application presents the user with the 5-day forecast with the
 
 * [Express.js Documentation](https://expressjs.com/en/guide/routing.html): Learn more about the backend framework used for routing and server setup.
 
-## 🤝 Acknowledgments
+## 🎉 Acknowledgments
 
 This project has greatly benefited from the expertise and dedication of **Nico Davis**. Her microservice, which provides real-time sunrise and sunset data, elevated the ExacWeather app experience. Be sure to check out her [GitHub profile](https://github.com/baedirin) to see more of her exceptional work.
